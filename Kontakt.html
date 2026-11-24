@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tytuł strony</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Strona główna</a>
+      <a href="Trochę o mnie.html">Trochę o mnie</a>
+      <a href="Oferta.html">Oferta</a>
+      <a href="Galeria.html">Galeria</a>
+      <a href="Kontakt.html">Kontakt</a>
+    </nav>
+  </header>
+<section class="contact">
+    <h2>Skontaktuj się z nami</h2>
+
+    <form action="https://formspree.io/f/mzerykbw"
+          method="POST">
+
+        <input type="text"
+               name="Imię i nazwisko"
+               placeholder="Imię i nazwisko"
+               required>
+
+        <input type="tel"
+               name="Numer telefonu"
+               placeholder="Numer telefonu"
+               required>
+
+        <input type="email"
+               name="email"
+               placeholder="Twój e-mail"
+               required>
+
+        <input type="text"
+               name="Miejsce imprezy(nazwa lokalu, adres)"
+               placeholder="Miejsce imprezy(nazwa lokalu, adres)"
+               required>
+
+        <input type="date"
+               name="Termin imprezy"
+               placeholder="Termin imprezy"
+               required>
+        <textarea name="Twoja wiadomość"
+                  placeholder="Twoja wiadomość"
+                  required></textarea>
+
+        <button type="submit">Wyślij wiadomość</button>
+    </form>
+</section>
+  <footer>
+    <p>DJ Lemonka 2026</p>
+  </footer>
+</body>
+</html>
